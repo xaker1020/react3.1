@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 54px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:root {
+    --bg: #C4B5A5;
+    --oq: white;
+    --qora: black;
+    --sariq: #FB982F;
+}
+
+.dark {
+    --bg: black;
+    --oq: black;
+    --qora: white;
+    --sariq: #C4B5A5;
+}
+
+header .container h2 {
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 153%;
+    letter-spacing: 0%;
+    color: var(--qora);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--qora);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.light-btn {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--qora);
+    background-color: var(--sariq);
+    padding: 11px 28px;
+    border: none;
+    border-radius: 6px;
+}
+
+.dark-btn {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--oq);
+    background-color: var(--qora);
+    padding: 11px 28px;
+    border: none;
+    border-radius: 6px;
+}
+
+.wfe {
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 155%;
+    letter-spacing: 0%;
+    width: 420px;
+    color: var(--qora);
+    padding-top: 83px;
+}
+
+.ds {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    letter-spacing: 0%;
+    width: 426px;
+    color: var(--qora);
+    padding-top: 77px;
+    padding-bottom: 89px;
+}
+
+.btn3 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--qora);
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+    border: none;
+    padding: 14px 30px;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    color: var(--qora);
+}
